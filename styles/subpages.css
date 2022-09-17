@@ -1,3 +1,12 @@
 .subtitle {
+  font-family: 'Paytone One', sans-serif;
   font-size: 3rem;
+}
+
+main p {
+  font-size: 1.05rem;
+}
+
+.nav-color {
+  color: rgb(74, 74, 255);
 }

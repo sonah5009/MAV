@@ -1,11 +1,19 @@
+html {
+  --color-blue-100: rgb(173, 173, 255);
+  --color-blue-300: rgb(126, 126, 255);
+  --color-blue-600: rgb(74, 74, 255);
+}
+
 body {
   color: rgb(2, 0, 19);
-  font-family: 'Paytone One', sans-serif;
+  font-family: 'Gothic A1', sans-serif;
   margin: 0;
-  background-color: white;
+  background-color: rgb(242, 246, 255);
+
 }
 
 header {
+  font-family: 'Paytone One', sans-serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -14,7 +22,8 @@ header {
   top: 0;
   left: 0;
   box-sizing: border-box;
-  background-color: rgb(223, 233, 255);
+  /* background-color: rgb(223, 233, 255); */
+  background-color: rgb(254, 254, 254);
 
 }
 
@@ -24,7 +33,6 @@ header ul {
 }
 
 header li {
-  /* margin-left: 20px; */
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -37,12 +45,17 @@ header a {
   border-radius: 6px;
 }
 
+header a:hover {
+  color: rgb(74, 74, 255);
+
+}
+
 main {
   margin: 100px 300px 100px 300px;
 }
 
 main p {
-  font-family: 'Gamja Flower', cursive;
+  font-family: 'Gothic A1', sans-serif;
   font-size: 1.5rem;
 }
 
@@ -51,12 +64,12 @@ main p {
   font-weight: bold;
 }
 
-.color-M {
-  color: rgb(173, 173, 255);
+.color-blue-100 {
+  color: var(--color-blue-100);
 }
-.color-A {
-  color: rgb(126, 126, 255);
+.color-blue-300 {
+  color: var(--color-blue-300);
 }
-.color-V {
-  color: rgb(74, 74, 255);
+.color-blue-600 {
+  color: var(--color-blue-600);
 }
