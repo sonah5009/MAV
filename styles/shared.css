@@ -1,0 +1,62 @@
+body {
+  color: rgb(2, 0, 19);
+  font-family: 'Paytone One', sans-serif;
+  margin: 0;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 20rem 1rem 20rem;
+  width: 100%;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background-color: rgb(223, 233, 255);
+
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header li {
+  /* margin-left: 20px; */
+  font-family: 'Quicksand', sans-serif;
+}
+
+header a {
+  color: rgb(2, 0, 19);
+  text-decoration: none;
+  font-size: 1rem;
+  padding: 12px;
+  text-shadow: 1px 1px 2px rgba(74, 74, 255, 0.1);
+  border-radius: 6px;
+}
+
+main {
+  margin: 100px 300px 100px 300px;
+}
+
+main p {
+  font-family: 'Gamja Flower', cursive;
+  font-size: 1.5rem;
+}
+
+#page-logo {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.color-M {
+  color: rgb(173, 173, 255);
+}
+.color-A {
+  color: rgb(126, 126, 255);
+}
+.color-V {
+  color: rgb(74, 74, 255);
+}
