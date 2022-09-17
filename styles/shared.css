@@ -2,13 +2,17 @@ html {
   --color-blue-100: rgb(173, 173, 255);
   --color-blue-300: rgb(126, 126, 255);
   --color-blue-600: rgb(74, 74, 255);
+
+  --color-blue-0: rgb(242, 246, 255);
+
+  --color-white-0:rgb(254, 254, 254);
 }
 
 body {
   color: rgb(2, 0, 19);
   font-family: 'Gothic A1', sans-serif;
   margin: 0;
-  background-color: rgb(242, 246, 255);
+  background-color: var(--color-blue-0);
 
 }
 
@@ -22,8 +26,7 @@ header {
   top: 0;
   left: 0;
   box-sizing: border-box;
-  /* background-color: rgb(223, 233, 255); */
-  background-color: rgb(254, 254, 254);
+  background-color: var(--color-white-0)
 
 }
 

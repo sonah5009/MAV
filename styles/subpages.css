@@ -10,3 +10,8 @@ main p {
 .nav-color {
   color: rgb(74, 74, 255);
 }
+
+/* recruitment page */
+.listTitle {
+  font-weight: 600;
+}
