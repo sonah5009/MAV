@@ -33,6 +33,7 @@ header {
 header ul {
   list-style: none;
   display: flex;
+  text-align: center;
 }
 
 header li {
@@ -53,9 +54,10 @@ header a:hover {
 
 }
 
-main {
-  margin: 100px 300px 100px 300px;
+.section-padding{
+  padding: 100px 300px 100px 300px;
 }
+
 
 main p {
   font-family: 'Gothic A1', sans-serif;
@@ -75,4 +77,21 @@ main p {
 }
 .color-blue-600 {
   color: var(--color-blue-600);
+}
+
+.nav-underline { 
+  display:inline-block; 
+  margin:0;
+  text-transform:uppercase;
+}
+
+.nav-underline:after {
+  display:block;
+  content: '';
+  border-bottom: solid 1px var(--color-blue-600);
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.nav-underline:hover:after { 
+  transform: scaleX(1); 
 }
