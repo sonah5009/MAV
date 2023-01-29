@@ -8,6 +8,7 @@ html {
   --color-white-0:rgb(254, 254, 254);
 
   --color-grey-100: rgb(236, 236, 236);
+  --color-grey-200: rgba(236, 236, 236, 0.819);
   --color-grey-400: rgb(139, 139, 139);
   --color-grey-600: rgb(58, 58, 58);
   --color-grey-900: rgb(41, 41, 41);
@@ -55,7 +56,7 @@ header a {
 }
 
 header a:hover {
-  color: rgb(74, 74, 255);
+  color: var(--color-blue-600);
 
 }
 
@@ -83,7 +84,7 @@ main p {
 .color-blue-600 {
   color: var(--color-blue-600);
 }
-
+/* navigation animation */
 .nav-underline { 
   display:inline-block; 
   margin:0;
@@ -100,3 +101,4 @@ main p {
 .nav-underline:hover:after { 
   transform: scaleX(1); 
 }
+/*  */
