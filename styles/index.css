@@ -1,4 +1,33 @@
 #club-name {
   font-family: 'Paytone One', sans-serif;
   font-size: 5rem;
+  font-size: 4.5rem;
+  text-align: center;
+}
+.section-padding {
+  padding: 15rem;
+  text-align: center;
+}
+
+#recruiting-p {
+  font-weight: 800;
+  font-size: 3rem;
+  /* color: aquamarine; */
+}
+
+#applyBtn a {
+  margin-top: 2rem;
+  background-color: var(--color-blue-600);
+  border: none;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  display: inline-block;
+  color: var(--color-white-0);
+  text-decoration: none;
+  text-align: center;
+  font-weight: 800;
+  /* font-weight: 400; */
 }

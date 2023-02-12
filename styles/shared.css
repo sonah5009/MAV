@@ -2,6 +2,8 @@ html {
   --color-blue-100: rgb(173, 173, 255);
   --color-blue-300: rgb(126, 126, 255);
   --color-blue-600: rgb(74, 74, 255);
+  --color-blue-900: rgb(2, 0, 19);
+
 
   --color-blue-0: rgb(242, 246, 255);
 
@@ -15,64 +17,154 @@ html {
 }
 
 body {
-  color: rgb(2, 0, 19);
+  color: var(--color-blue-0);
+  color: var(--color-grey-900);
   font-family: 'Gothic A1', sans-serif;
   margin: 0;
+  background-color: var(--color-blue-900);
+  background-color: var(--color-white-0);
   background-color: var(--color-blue-0);
-
 }
 
-header {
+a {
+  color: rgb(2, 0, 19);
+  text-decoration: none;
+}
+
+#main-header {
   font-family: 'Paytone One', sans-serif;
+  height: 5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 20rem 1rem 20rem;
-  width: 100%;
-  top: 0;
-  left: 0;
-  box-sizing: border-box;
-  background-color: var(--color-white-0)
-
+  background-color: var(--color-white-0);
+  padding: 0 5%;
 }
 
-header ul {
-  list-style: none;
-  display: flex;
-  text-align: center;
-}
-
-header li {
-  font-family: 'Quicksand', sans-serif;
-}
-
-header a {
-  color: rgb(2, 0, 19);
-  text-decoration: none;
-  font-size: 1rem;
-  padding: 12px;
-  text-shadow: 1px 1px 2px rgba(74, 74, 255, 0.1);
-  border-radius: 6px;
-}
-
-header a:hover {
-  color: var(--color-blue-600);
-
-}
-
-.section-padding{
-  padding: 100px 300px 100px 300px;
-}
-
-
-main p {
-  font-family: 'Gothic A1', sans-serif;
-  font-size: 1.5rem;
+#main-header a {
+  color: var(--color-grey-900);
 }
 
 #page-logo {
   font-size: 2rem;
   font-weight: bold;
+}
+
+.menu-btn {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+}
+
+#footer-p {
+  font-size: 2rem;
+}
+
+.menu-btn span {
+  width: 100%;
+  height: 3px;
+  background-color: var(--color-grey-900);
+}
+
+.menu-btn-on span{
+  background-color: var(--color-blue-0);
+}
+
+#main-header ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+#main-header li {
+  margin: 0 1rem;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#main-header a:hover {
+  color: var(--color-blue-600);
+}
+
+.section-padding{
+  padding: 5% 5%;
+}
+
+
+
+/* 햄버거 */
+#side-drawer {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(13, 20, 47, 0.97);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#side-drawer:target {
+  display: block;
+}
+
+#side-drawer header {
+  height: 5rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 5%;
+}
+
+#side-drawer ul {
+  list-style: none;
+  margin: 0;
+  padding: 4rem 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#side-drawer li {
+  margin: 1rem 0;
+}
+
+#side-drawer a {
+  color: var(--color-blue-0);
+  font-size: 2rem;
+}
+
+
+@media (max-width: 48rem) {
+  #main-header nav {
+    display: none;
+  }
+
+  .menu-btn {
+    display: flex;
+  }
+
+  main h1 {
+    font-size: 1.5rem;
+  }
+  
+  #latest-products ul {
+    grid-template-columns: 100%;
+  }
+}
+/* 햄버거  끝*/
+
+
+main p {
+  font-family: 'Gothic A1', sans-serif;
+  font-size: 1.5rem;
 }
 
 .color-blue-100 {
