@@ -7,7 +7,7 @@ html {
 
   --color-blue-0: rgb(242, 246, 255);
 
-  --color-white-0:rgb(254, 254, 254);
+  --color-white-0: rgb(254, 254, 254);
 
   --color-grey-100: rgb(236, 236, 236);
   --color-grey-200: rgba(236, 236, 236, 0.819);
@@ -17,13 +17,13 @@ html {
 }
 
 body {
-  color: var(--color-blue-0);
   color: var(--color-grey-900);
+  color: var(--color-blue-0);
   font-family: 'Gothic A1', sans-serif;
   margin: 0;
-  background-color: var(--color-blue-900);
   background-color: var(--color-white-0);
   background-color: var(--color-blue-0);
+  background-color: var(--color-blue-900);
 }
 
 a {
@@ -74,7 +74,7 @@ footer {
   background-color: var(--color-grey-900);
 }
 
-.menu-btn-on span{
+.menu-btn-on span {
   background-color: var(--color-blue-0);
 }
 
@@ -94,7 +94,7 @@ footer {
   color: var(--color-blue-600);
 }
 
-.section-padding{
+.section-padding {
   padding: 5% 5%;
 }
 
@@ -154,11 +154,12 @@ footer {
   main h1 {
     font-size: 1.5rem;
   }
-  
+
   #latest-products ul {
     grid-template-columns: 100%;
   }
 }
+
 /* 햄버거  끝*/
 
 
@@ -170,27 +171,32 @@ main p {
 .color-blue-100 {
   color: var(--color-blue-100);
 }
+
 .color-blue-300 {
   color: var(--color-blue-300);
 }
+
 .color-blue-600 {
   color: var(--color-blue-600);
 }
+
 /* navigation animation */
-.nav-underline { 
-  display:inline-block; 
-  margin:0;
-  text-transform:uppercase;
+.nav-underline {
+  display: inline-block;
+  margin: 0;
+  text-transform: uppercase;
 }
 
 .nav-underline:after {
-  display:block;
+  display: block;
   content: '';
   border-bottom: solid 1px var(--color-blue-600);
-  transform: scaleX(0);  
+  transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
-.nav-underline:hover:after { 
-  transform: scaleX(1); 
+
+.nav-underline:hover:after {
+  transform: scaleX(1);
 }
+
 /*  */
