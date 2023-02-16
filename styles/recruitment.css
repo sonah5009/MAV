@@ -28,12 +28,14 @@
   font-size: 2rem;
   text-align: center;
   margin: 0;
+  padding: 3rem;
 }
 
 .ulItem {
   text-align: center;
   text-decoration: none;
   list-style: none;
+  padding: 0;
 }
 .liItem {
   padding: 10px;
@@ -42,16 +44,22 @@
 .section-padding {
   padding: 150px 300px 150px 300px;
   padding: 9rem 18rem;
+  text-align: center;
 
 }
-
+/* 
 .section-top {
-  /* background-color: rgb(230, 244, 255); */
   background-color: var(--color-blue-0);
-}
+} */
 
 .section-middle {
-  background-color: var(--color-white-0);
+  /* background-color: var(--color-white-0); */
+  text-align: center;
+  
+}
+
+.recruitment-box {
+  color: var(--color-grey-900);
 }
 
 /* 모집 일정 */
@@ -59,23 +67,26 @@
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
-  padding: 5rem 25rem;
+  padding: 0 10rem 0 10rem;
   width: 100%;
   top: 0;
   left: 0;
   box-sizing: border-box;
-  background-color: var(--color-white-0)
+  
+  /* background-color: var(--color-white-0) */
 }
 
 .recruitment-box-item {
   background-color: var(--color-grey-100);
   border-radius: 20px;
-  /* white-space: 10px; */
   justify-content: space-between;
   align-items: center;
   box-sizing: border-box;
-  padding: 1.5rem 2rem;
-
+  padding: 1rem 1.5rem;
+  width: 10rem;
+}
+.recruitment-box-item h2 {
+  height: 50%;
 }
 
 .big-arrow {

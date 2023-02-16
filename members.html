@@ -62,25 +62,25 @@
 
   <main>
     <section class="section-padding">
-      <div>
+      <div id="main-members">
         <div class="subtitle">
           <span class="color-blue-300">M</span>EMBERS
         </div>
         <p>
           성균관대학교 메타버스 스튜디오
         </p>
+        <!--드롭다운 메뉴-->
+        <div class="dropdown">
+          <button style="background-color: var(--color-blue-600);" class="dropbtn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <span id="show_item">몇 기</span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a id="button6" class="dropdown-item" href="#content6">6기</a></li>
+            <li><a id="button7" class="dropdown-item" href="#content7">7기</a></li>
+          </ul>
+        </div>
       </div>
     
-      <!--드롭다운 메뉴-->
-      <div class="dropdown">
-        <button style="background-color: var(--color-blue-600);" class="dropbtn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-          <span id="show_item">몇 기</span>
-        </button>
-        <ul class="dropdown-menu">
-          <li><a id="button6" class="dropdown-item" href="#content6">6기</a></li>
-          <li><a id="button7" class="dropdown-item" href="#content7">7기</a></li>
-        </ul>
-      </div>
 
       <!-- 내용을 보여줄 영역 -->
       <section id="cards">
@@ -516,7 +516,7 @@
 
           </ul>
         </div>
-        <div id="content7">777777</div>
+        <div id="content7"></div>
       </section>
 
     </section>

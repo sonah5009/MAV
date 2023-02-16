@@ -1,5 +1,8 @@
-.section-padding{
-  /* padding: 5% 50%; */
+#main-members {
+  text-align: center;
+}
+.dropdown {
+  padding: 2rem;
 }
 
 /* card */
@@ -18,6 +21,7 @@
 }
 
 .card-item {
+  color: var(--color-grey-900);
   background-color: var(--color-white-0);
   border-radius: 6px;
   overflow: hidden;
@@ -67,6 +71,7 @@
   /* float: center; */
   position: relative;
   display: inline-block;
+
 }
 
 .dropdown-menu {

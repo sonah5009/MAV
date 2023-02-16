@@ -6,7 +6,7 @@ const content6 = document.getElementById("content6");
 const content7 = document.getElementById("content7");
 
 
-content6.style.display = "block";
+// content6.style.display = "block";
 // button6을 누르면 특정 내용이 content 영역에 보여짐
 button6.addEventListener("click", function(){
   content7.style.display = "none";
