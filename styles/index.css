@@ -1,3 +1,26 @@
+#videoBg {
+  position: fixed;
+  /* right: 0;
+  bottom: 0; */
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  z-index: -100;
+  /* background: url(../images/mav_img_width.png) ; */
+  background-size: cover;
+}
+
+@media only screen and (max-width: 800px) {
+  body {
+    background: url(../images/mav_img_length.png) no-repeat fixed center;
+    background-size: cover;
+  }
+  #videoBg {
+    display: none;
+  }
+}
+
 #club-name {
   font-family: 'Paytone One', sans-serif;
   font-size: 5rem;

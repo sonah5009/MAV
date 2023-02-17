@@ -147,7 +147,7 @@ footer {
 }
 
 
-@media (max-width: 48rem) {
+@media (max-width: 800px) {
   #main-header nav {
     display: none;
   }
