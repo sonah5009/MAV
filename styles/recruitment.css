@@ -92,6 +92,7 @@
 .big-arrow {
   font-size: 50px;
   padding-top: 4rem;
+  color: var(--color-white-0);
 }
 
 @media (max-width: 48rem) {

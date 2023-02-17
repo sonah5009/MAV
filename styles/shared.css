@@ -205,3 +205,13 @@ main p {
 }
 
 /*  */
+@media all and (orientation:portrait) {
+  body {
+    background: url(../images/mav_img_length.png) no-repeat fixed center;
+    width: 100%;
+    background-size: cover;
+  }
+  #videoBg {
+    display: none;
+  }
+}

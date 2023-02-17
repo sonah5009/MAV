@@ -7,13 +7,15 @@
   height: auto;
   min-height: 100%;
   z-index: -100;
-  /* background: url(../images/mav_img_width.png) ; */
+  background: url(../images/mav_img_width.png) ;
   background-size: cover;
 }
 
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) { */
+@media all and (orientation:portrait) {
   body {
     background: url(../images/mav_img_length.png) no-repeat fixed center;
+    width: 100%;
     background-size: cover;
   }
   #videoBg {
@@ -24,7 +26,7 @@
 #club-name {
   font-family: 'Paytone One', sans-serif;
   font-size: 5rem;
-  font-size: 4.5rem;
+  font-size: 10rem;
   text-align: center;
 }
 
