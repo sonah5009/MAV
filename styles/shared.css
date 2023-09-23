@@ -1,7 +1,7 @@
 #img-container {
   margin: 0 auto;
   align-items: center;
-  width: 440px;
+  width: 700px;
 }
 html {
   --color-blue-100: rgb(173, 173, 255);
@@ -26,9 +26,9 @@ body {
   color: var(--color-grey-900);
   font-family: "Gothic A1", sans-serif;
   margin: 0;
-  background-color: var(--color-blue-900);
-  background-color: var(--color-white-0);
-  background-color: var(--color-blue-0);
+  /* background-color: var(--color-blue-900); */
+  /* background-color: var(--color-white-0); */
+  /* background-color: var(--color-blue-0); */
 }
 
 a {
