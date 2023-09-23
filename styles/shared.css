@@ -1,5 +1,7 @@
-.video-container {
+#img-container {
   margin: 0 auto;
+  align-items: center;
+  width: 200px;
 }
 html {
   --color-blue-100: rgb(173, 173, 255);
