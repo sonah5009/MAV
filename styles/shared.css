@@ -12,13 +12,6 @@ img {
   background: #f15fa8;
 }
 
-body {
-  /* margin: 0 auto; */
-  /* background-color: var(--color-blue-900); */
-  /* background-color: var(--color-white-0); */
-  /* background-color: var(--color-blue-0); */
-}
-
 ul {
   list-style: none;
 }
@@ -30,15 +23,14 @@ header {
 header ul {
   display: flex;
   justify-content: center;
-  /* margin: 0 auto; */
 }
 
 header li {
-  margin-left: 20px;
+  text-align: center;
 }
 
 header a {
-  color: rgb(255, 251, 0);
+  color: #f15fa8;
   text-decoration: none;
   font-size: 20px;
   padding: 10px;
@@ -47,8 +39,8 @@ header a {
 }
 
 header nav a:hover {
-  color: rgb(77, 77, 77);
-  background-color: rgb(255, 251, 0);
+  /* color: rgb(77, 77, 77); */
+  /* background-color: rgba(255, 255, 255, 0.1); */
 }
 
 /* navigation animation */
@@ -61,7 +53,7 @@ header nav a:hover {
 .nav-underline:after {
   display: block;
   content: "";
-  border-bottom: solid 1px rgb(255, 255, 255);
+  border-bottom: solid 1px #f15fa8;
   transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }

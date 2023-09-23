@@ -1,0 +1,11 @@
+#disabled-button {
+  color: #f15fa88a;
+  cursor: not-allowed;
+}
+#disabled-button:after {
+  display: block;
+  content: "";
+  border-bottom: solid 1px #f15fa8;
+  transform: scaleX(0);
+  transition: transform 250ms ease-in-out;
+}
