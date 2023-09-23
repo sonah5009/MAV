@@ -8,8 +8,17 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Flutter InAppBrowser</title>
   </head>
-  <body>
-    <h3>Hi! I'm Test Page!</h3>
+  <body style="background-color: black">
+    <video
+      class="video"
+      autoplay
+      muted
+      loop
+      width="auto"
+      height="auto"
+      id="videoBg">
+      <source type="video/mp4" src="images/model.mp4" />
+    </video>
     <script>
       window.addEventListener(
         "flutterInAppWebViewPlatformReady",
@@ -19,6 +28,7 @@
             .callHandler("callflutter", "*** Message From Server JS ***")
             .then(function (result) {
               console.log(result);
+              console.log("softraser");
             });
         }
       );
